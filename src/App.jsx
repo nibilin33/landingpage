@@ -89,20 +89,20 @@ function App() {
       </section>
 
       {/* 三大核心模块 */}
+      {/* 三大核心模块 */}
       <section className="max-w-6xl mx-auto py-12 px-4 grid md:grid-cols-3 gap-8">
         {/* Mock Test */}
         <div
           id="mock"
-          className="bg-white rounded-2xl shadow-lg p-7 flex flex-col items-center border-t-4 border-[#00A79D]"
+          className="bg-white rounded-2xl shadow-lg p-7 flex flex-col items-center border-t-4 border-[#00A79D] relative"
+          style={{ minHeight: "420px" }}
         >
           <div className="mb-4 text-4xl">📘</div>
           <h3 className="text-xl font-bold mb-2 text-[#00A79D]">
             AI IELTS Mock Test
           </h3>
-          <ul className="text-[#545353] mb-4 text-left list-disc list-inside text-sm">
+          <ul className="text-[#545353] mb-4 text-left list-disc list-inside text-sm space-y-2">
             <li>Full-length mock tests with timing and band descriptors</li>
-            <li>Instant scoring and feedback</li>
-            <li>Simulate the real test day experience</li>
             <li>
               AI automatically generates authentic mock questions covering all
               types
@@ -113,52 +113,50 @@ function App() {
               weaknesses
             </li>
           </ul>
-          <button className="bg-[#00A79D] text-white px-4 py-2 rounded hover:bg-[#009688] transition w-full font-semibold">
-            Take an AI Mock Test Now
-          </button>
+         <button className="bg-[#00A79D] text-white px-4 py-2 rounded hover:bg-[#009688] transition w-[calc(100%-3.5rem)] font-semibold absolute left-1/2 bottom-0 transform -translate-x-1/2 mb-7">
+        Take an AI Mock Test Now
+      </button>
         </div>
         {/* Practice Test */}
         <div
           id="practice"
-          className="bg-white rounded-2xl shadow-lg p-7 flex flex-col items-center border-t-4 border-[#00A79D]"
+          className="bg-white rounded-2xl shadow-lg p-7 flex flex-col items-center border-t-4 border-[#00A79D] relative"
+          style={{ minHeight: "420px" }}
         >
           <div className="mb-4 text-4xl">🧠</div>
           <h3 className="text-xl font-bold mb-2 text-[#00A79D]">
             AI IELTS Practice Test
           </h3>
-          <ul className="text-[#545353] mb-4 text-left list-disc list-inside text-sm">
+          <ul className="text-[#545353] mb-4 text-left list-disc list-inside text-sm space-y-2">
             <li>
               Reading, Listening, Writing, Speaking sections by difficulty
             </li>
             <li>Daily mini tests with progress tracking</li>
             <li>Grammar & vocabulary boosters</li>
           </ul>
-          <button className="bg-[#00A79D] text-white px-4 py-2 rounded hover:bg-[#009688] transition w-full font-semibold">
+          <button className="bg-[#00A79D] text-white px-4 py-2 rounded hover:bg-[#009688] transition w-[calc(100%-3.5rem)] font-semibold absolute left-1/2 bottom-0 transform -translate-x-1/2 mb-7">
             Try a Practice Set
           </button>
         </div>
         {/* Preparation Plan */}
         <div
           id="plan"
-          className="bg-white rounded-2xl shadow-lg p-7 flex flex-col items-center border-t-4 border-[#00A79D]"
+          className="bg-white rounded-2xl shadow-lg p-7 flex flex-col items-center border-t-4 border-[#00A79D] relative"
+          style={{ minHeight: "420px" }}
         >
           <div className="mb-4 text-4xl">📅</div>
           <h3 className="text-xl font-bold mb-2 text-[#00A79D]">
             AI IELTS Preparation Plan
           </h3>
-          <ul className="text-[#545353] mb-4 text-left list-disc list-inside text-sm">
-            <li>8-week structured prep plan</li>
-            <li>Covers all question types and strategies</li>
-            <li>Tips from IELTS band 8+ scorers</li>
-            <li>Printable and customizable study schedule</li>
-            <li>AI one-click to generate an efficient 8-week study plan</li>
+          <ul className="text-[#545353] mb-4 text-left list-disc list-inside text-sm space-y-2">
+            <li>AI one-click to generate an efficient 8-week study plan,covers all question types and strategies</li>
             <li>Dynamically adjusts your learning path to fit your progress</li>
             <li>
               AI summarizes top-scorer experiences and sends daily reminders
             </li>
             <li>Plan is printable and fully customizable</li>
           </ul>
-          <button className="bg-[#00A79D] text-white px-4 py-2 rounded hover:bg-[#009688] transition w-full font-semibold">
+          <button className="bg-[#00A79D] text-white px-4 py-2 rounded hover:bg-[#009688] transition w-[calc(100%-3.5rem)] font-semibold absolute left-1/2 bottom-0 transform -translate-x-1/2 mb-7">
             Get the Plan
           </button>
         </div>
@@ -172,7 +170,7 @@ function App() {
         <div className="flex flex-col md:flex-row gap-6 justify-center mb-6">
           <div className="bg-white rounded-xl shadow p-5 flex-1 border border-[#E0F7F5]">
             <div className="flex items-center gap-2 mb-2">
-               <div className="w-10 h-10 rounded-full bg-[#00A79D] flex items-center justify-center text-white font-bold text-lg">
+              <div className="w-10 h-10 rounded-full bg-[#00A79D] flex items-center justify-center text-white font-bold text-lg">
                 A
               </div>
               <span className="font-semibold">Anna</span>
