@@ -1,0 +1,100 @@
+{
+  "nav": {
+    "mock": "Mock Test",
+    "practice": "Practice",
+    "plan": "Study Plan",
+    "faq": "FAQ",
+    "login": "Login",
+    "signup": "Sign Up"
+  },
+  "hero": {
+    "title": "Ace Your IELTS with a Smart Preparation Plan",
+    "subtitle": "Free IELTS Mock Tests, Practice Exercises & 8-Week Study Guide to Boost Your Score",
+    "cta_test": "Start Your Free Practice Test",
+    "cta_plan": "Get My Study Plan PDF"
+  },
+  "modules": {
+    "mock": {
+      "title": "AI IELTS Mock Test",
+      "features": [
+        "Full-length mock tests with timing and band descriptors",
+        "Instant scoring and feedback",
+        "Simulate the real test day experience",
+        "AI automatically generates authentic mock questions covering all types",
+        "AI-powered scoring and personalized feedback",
+        "Recreate the real exam experience to help you identify and improve weaknesses"
+      ],
+      "cta": "Take an AI Mock Test Now"
+    },
+    "practice": {
+      "title": "AI IELTS Practice Test",
+      "features": [
+        "Reading, Listening, Writing, Speaking sections by difficulty",
+        "Daily mini tests with progress tracking",
+        "Grammar & vocabulary boosters"
+      ],
+      "cta": "Try a Practice Set"
+    },
+    "plan": {
+      "title": "AI IELTS Preparation Plan",
+      "features": [
+        "8-week structured prep plan",
+        "Covers all question types and strategies",
+        "Tips from IELTS band 8+ scorers",
+        "Printable and customizable study schedule",
+        "AI one-click to generate an efficient 8-week study plan",
+        "Dynamically adjusts your learning path to fit your progress",
+        "AI summarizes top-scorer experiences and sends daily reminders",
+        "Plan is printable and fully customizable"
+      ],
+      "cta": "Get the Plan"
+    }
+  },
+  "testimonials": {
+    "title": "What Our Learners Say",
+    "users": [
+      {
+        "name": "Anna",
+        "comment": "Scored Band 7.5 in just 6 weeks!"
+      },
+      {
+        "name": "Leo",
+        "comment": "Love the plan – daily tasks kept me on track."
+      },
+      {
+        "name": "Mia",
+        "comment": "Mock test experience was just like the real one!"
+      }
+    ],
+    "improve": "92% users improved 1+ band after using our plan",
+    "trusted": "Trusted by 80,000+ IELTS learners"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "list": [
+      {
+        "q": "What is included in the IELTS practice test?",
+        "a": "It includes section-based drills for Reading, Listening, Writing, and Speaking."
+      },
+      {
+        "q": "How is the mock test scored?",
+        "a": "Our system simulates official scoring rubrics for each section."
+      },
+      {
+        "q": "Is the study plan suitable for beginners?",
+        "a": "Yes, it’s structured from Band 5–8+."
+      },
+      {
+        "q": "How does AI help with my IELTS preparation?",
+        "a": "AI generates personalized mock tests, scores them, and provides feedback based on your performance."
+      }
+    ]
+  },
+  "footer": {
+    "title": "Get Started Today",
+    "desc": "Ready to boost your IELTS score? Start with a mock test or download your 8-week prep plan.",
+    "cta_test": "Take Free Mock Test",
+    "cta_plan": "Download Study Plan",
+    "copyright": "© 2025 IELTS Prep. All Rights Reserved."
+  }
+}
