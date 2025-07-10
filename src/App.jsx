@@ -1,10 +1,11 @@
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import college from "./assets/college-bro.svg";
+import { useAuth0 } from "@auth0/auth0-react";
 
 function App() {
   const [openFaq, setOpenFaq] = useState(null);
-
+  const { loginWithRedirect } = useAuth0();
   const faqs = [
     {
       q: "What is included in the IELTS practice test?",
@@ -51,12 +52,9 @@ function App() {
               FAQ
             </a>
           </nav>
-          <div className="flex gap-2">
-            <button className="border border-[#00A79D] text-[#00A79D] px-4 py-1 rounded hover:bg-[#E0F7F5] transition">
-              Login
-            </button>
-            <button className="bg-[#00A79D] text-white px-4 py-1 rounded hover:bg-[#009688] transition">
-              Sign Up
+          <div className="flex">
+            <button  onClick={() => loginWithRedirect()} className="border border-[#00A79D] text-[#00A79D] px-4 py-1 rounded hover:bg-[#E0F7F5] transition">
+              Login In
             </button>
           </div>
         </div>
@@ -113,7 +111,7 @@ function App() {
               weaknesses
             </li>
           </ul>
-         <button className="bg-[#00A79D] text-white px-4 py-2 rounded hover:bg-[#009688] transition w-[calc(100%-3.5rem)] font-semibold absolute left-1/2 bottom-0 transform -translate-x-1/2 mb-7">
+         <button onClick={() => loginWithRedirect()} className="bg-[#00A79D] text-white px-4 py-2 rounded hover:bg-[#009688] transition w-[calc(100%-3.5rem)] font-semibold absolute left-1/2 bottom-0 transform -translate-x-1/2 mb-7">
         Take an AI Mock Test Now
       </button>
         </div>
@@ -134,7 +132,7 @@ function App() {
             <li>Daily mini tests with progress tracking</li>
             <li>Grammar & vocabulary boosters</li>
           </ul>
-          <button className="bg-[#00A79D] text-white px-4 py-2 rounded hover:bg-[#009688] transition w-[calc(100%-3.5rem)] font-semibold absolute left-1/2 bottom-0 transform -translate-x-1/2 mb-7">
+          <button onClick={() => loginWithRedirect()} className="bg-[#00A79D] text-white px-4 py-2 rounded hover:bg-[#009688] transition w-[calc(100%-3.5rem)] font-semibold absolute left-1/2 bottom-0 transform -translate-x-1/2 mb-7">
             Try a Practice Set
           </button>
         </div>
@@ -156,7 +154,7 @@ function App() {
             </li>
             <li>Plan is printable and fully customizable</li>
           </ul>
-          <button className="bg-[#00A79D] text-white px-4 py-2 rounded hover:bg-[#009688] transition w-[calc(100%-3.5rem)] font-semibold absolute left-1/2 bottom-0 transform -translate-x-1/2 mb-7">
+          <button onClick={() => loginWithRedirect()} className="bg-[#00A79D] text-white px-4 py-2 rounded hover:bg-[#009688] transition w-[calc(100%-3.5rem)] font-semibold absolute left-1/2 bottom-0 transform -translate-x-1/2 mb-7">
             Get the Plan
           </button>
         </div>
