@@ -77,10 +77,10 @@ function App() {
           Boost Your Score
         </h2>
         <div className="flex flex-col md:flex-row gap-4 justify-center">
-          <button className="bg-[#00A79D] text-white px-6 py-3 rounded-lg font-semibold shadow hover:bg-[#009688] transition">
+          <button onClick={() => loginWithRedirect()} className="bg-[#00A79D] text-white px-6 py-3 rounded-lg font-semibold shadow hover:bg-[#009688] transition">
             Start Your Free Practice Test
           </button>
-          <button className="bg-white border border-[#00A79D] text-[#00A79D] px-6 py-3 rounded-lg font-semibold shadow hover:bg-[#E0F7F5] transition">
+          <button onClick={() => loginWithRedirect()} className="bg-white border border-[#00A79D] text-[#00A79D] px-6 py-3 rounded-lg font-semibold shadow hover:bg-[#E0F7F5] transition">
             Get My Study Plan PDF
           </button>
         </div>
