@@ -11,7 +11,7 @@ createRoot(document.getElementById("root")).render(
       domain="dev-olizei7w2tjikmah.us.auth0.com"
       clientId="kXO6neMbLl1zyWZRfn36CeMuVcmNa6e4"
       authorizationParams={{
-        redirect_uri: window.location.origin,
+        redirect_uri: 'https://app.liqueai.com/#/home',
       }}
     >
       <App />
