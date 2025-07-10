@@ -242,10 +242,10 @@ function App() {
           your 8-week prep plan.
         </div>
         <div className="flex flex-col md:flex-row gap-4 justify-center">
-          <button className="bg-[#00A79D] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#009688] transition">
+          <button className="bg-[#00A79D] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#009688] transition" onClick={() => loginWithRedirect()}>
             Take Free Mock Test
           </button>
-          <button className="bg-white text-[#00A79D] px-6 py-3 rounded-lg font-semibold hover:bg-[#E0F7F5] transition">
+          <button className="bg-white text-[#00A79D] px-6 py-3 rounded-lg font-semibold hover:bg-[#E0F7F5] transition" onClick={() => loginWithRedirect()}>
             Download Study Plan
           </button>
         </div>
