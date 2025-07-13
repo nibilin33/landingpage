@@ -9,8 +9,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "sitemap": "node scripts/generate-sitemap.js",
-    "sitemap:watch": "node scripts/watch-sitemap.js",
-    "prebuild": "npm run sitemap"
+    "sitemap:watch": "node scripts/watch-sitemap.js"
   },
   "dependencies": {
     "@auth0/auth0-react": "^2.3.0",
