@@ -1,0 +1,62 @@
+{
+  "sitemap": {
+    "baseUrl": "https://ielts.liqueai.com",
+    "defaultChangefreq": "monthly",
+    "defaultPriority": "0.5",
+    "pages": [
+      {
+        "url": "/",
+        "priority": "1.0",
+        "changefreq": "weekly",
+        "description": "Main Landing Page"
+      },
+      {
+        "url": "/#mock",
+        "priority": "0.8", 
+        "changefreq": "monthly",
+        "description": "Mock Test Section"
+      },
+      {
+        "url": "/#practice",
+        "priority": "0.8",
+        "changefreq": "monthly", 
+        "description": "Practice Test Section"
+      },
+      {
+        "url": "/#plan",
+        "priority": "0.8",
+        "changefreq": "monthly",
+        "description": "Study Plan Section"
+      },
+      {
+        "url": "/#faq",
+        "priority": "0.7",
+        "changefreq": "monthly",
+        "description": "FAQ Section"
+      }
+    ],
+    "optionalPages": [
+      {
+        "url": "/?lang=zh",
+        "priority": "0.9",
+        "changefreq": "weekly",
+        "description": "Chinese Version",
+        "enabled": false
+      },
+      {
+        "url": "/privacy",
+        "priority": "0.4",
+        "changefreq": "yearly",
+        "description": "Privacy Policy", 
+        "enabled": false
+      },
+      {
+        "url": "/terms",
+        "priority": "0.4",
+        "changefreq": "yearly",
+        "description": "Terms of Service",
+        "enabled": false
+      }
+    ]
+  }
+}
