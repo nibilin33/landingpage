@@ -1,0 +1,31 @@
+# Robots.txt for IELTS AI Tools Landing Page
+
+# Allow all web crawlers to access the site
+User-agent: *
+Allow: /
+
+# Allow Ahrefs Site Audit tool
+User-agent: AhrefsSiteAudit
+Allow: /
+
+# Allow Ahrefs Bot
+User-agent: AhrefsBot
+Allow: /
+
+# Allow Google Bot
+User-agent: Googlebot
+Allow: /
+
+# Allow Bing Bot
+User-agent: Bingbot
+Allow: /
+
+# Allow Baidu Bot (for Chinese search)
+User-agent: Baiduspider
+Allow: /
+
+# Sitemap location (update this URL when you create your sitemap)
+Sitemap: https://ielts.liqueai.com/sitemap.xml
+
+# Crawl-delay (optional - sets delay between requests)
+# Crawl-delay: 1
